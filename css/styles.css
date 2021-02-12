@@ -14,28 +14,63 @@ h1 {
     margin: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
     font-size: 5.625rem;
+    color: #66BFBF;
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    font-weight: normal;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+a {
+    color: #11999E;
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+    border-style: none;
+    border-top: 10px dotted;
+    width: 10%;
+    color: #EAF6F6;
+}
+
+.profile {
+    margin: auto;
+    width: 75%;
 }
 
 .top-container {
     background-color: #E4F9F5;
     position: relative;
     padding-top: 100px;
+    width: 100%;
+    height: calc(100vh - 100px);
 }
 
 .middle-container {
     padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 .bottom-container {
+    background-color: #66BFBF;
+    padding: 20px;
+}
 
+.mountain {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    margin-left: -300px;
 }
 
 .bottom-cloud {
@@ -51,33 +86,75 @@ h3 {
 }
 
 .my-courses {
-    margin-left: auto;
-    margin-right: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: auto;
 }
 
-.my-projects {
-    position: relative;
-    margin: 50px;
+.courses-list {
+    line-height: 2;
+}
+
+.course-names {
+    color: #11999E;
 }
 
 .projects-column {
-    margin: 10px;
-    width: 25%;
+    padding-top: 5%;
+    padding-bottom: 16%;
+    /* width: 25%; */
 }
 
-.projects-row {
+/* .projects-row {
     display: flex;
     justify-content: space-between;
+} */
+
+.projects-row {
+    width: 40%;
+    margin: 0 auto 0 auto;
+    text-align: left;
+    line-height: 2;
 }
 
-.project-img {
-    width: 100%;
+.todo-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
 }
 
-.content {
+.password-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
 
+.sudoku-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.yoga-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
 }
 
 .courses-list {
     list-style-type: none;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #11999E;
+    padding: 1%;
+}
+
+.outro {
+    color: #EAF6F6;
+}
+
+.btn {
+    text-decoration: none;
 }
