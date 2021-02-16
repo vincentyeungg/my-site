@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vincent Yeung</title>
     <link rel="stylesheet" href="css/styles.css"/>
-    <link ref="icon" href="myIcon.ico"/>
+    <link rel="icon" href="myIcon.ico"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
 </head>
@@ -19,16 +19,33 @@
         <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
         <img class ="mountain" src="images/mountain.png" alt="mountain-img">
     </div>
+    
+    <nav class="navbar">
+        <ul>
+            <li>
+                <a href="#aboutme">About Me</a>
+            </li>
+            <li>
+                <a href="#mycourses">Courses</a>
+            </li>
+            <li>
+                <a href="#myprojects">Projects</a>
+            </li>
+            <li>
+                <a href="#contactme">Contact Me</a>
+            </li>
+        </ul>
+    </nav>
 
     <div class="middle-container">
-        <div class="profile">
+        <div class="profile" id="aboutme">
             <img src="images/circle-cropped.png" alt="vincent-yeung-img">
             <h2>Hello.</h2>
             <p>My name is Vincent and I am a 4th year computer engineering student at Ryerson. What I enjoy about studying Computer Engineering are the different topics and fields that are encountered along, such as building electronics and designing projects that mimic the large-scale applications in the world. The main programming languages that I'm familiar with are C and Java, as they were the languages that were taught. Outside of school, I've worked on several projects using Python as well. These projects can be found on my Github.</p>
         </div>
         <br>
         <hr>
-        <div class="my-courses">
+        <div class="my-courses" id="mycourses">
             <h2>A list of the courses I have taken at Ryerson University.</h2>
             <div class="mycourses-row">
                 <table class="my-courses">
@@ -110,13 +127,13 @@
         </div>
         <hr>
         <br>
-        <div class="my-projects">
+        <div class="my-projects" id="myprojects">
             <h2>Some of the projects I've worked on.</h2>
             <div class="projects-row">
                 <div class="projects-column">
                     <div class="content">
                         <a href="https://github.com/vincentyeungg/to-do-list" target="_blank">
-                            <img class="todo-img" src="images/todo-cropped.png" alt="computer-img">
+                            <img class="todo-img" src="images/todo-cropped.png" alt="todo-img">
                         </a>
                         <h3>To-Do List Web Application</h3>
                         <p>A web application built on Django that allows users to sign up and create their own list of to-dos.</p>
@@ -125,7 +142,7 @@
                 <div class="projects-column">
                     <div class="content">
                         <a href="https://github.com/vincentyeungg/password-generator" target="_blank">
-                            <img class="password-img" src="images/password-cropped.png" alt="computer-img">
+                            <img class="password-img" src="images/password-cropped.png" alt="password-img">
                         </a>
                         <h3>Password Generator</h3>
                         <p>A web application built on Django that generates a random password based on user selections.</p>
@@ -134,7 +151,7 @@
                 <div class="projects-column">
                     <div class="content">
                         <a href="https://github.com/vincentyeungg/sudoku-solver" target="_blank">
-                            <img class="sudoku-img" src="images/sudoku-cropped.png" alt="computer-img">
+                            <img class="sudoku-img" src="images/sudoku-cropped.png" alt="sudoku-img">
                         </a>
                         <h3>Sudoku</h3>
                         <p>A python application that uses a back-tracking algorithm to solve sudoku boards.</p>
@@ -143,10 +160,28 @@
                 <div class="projects-column">
                     <div class="content">
                         <a href="https://github.com/vincentyeungg/yoga_pose_estimation" target="_blank">
-                            <img class="yoga-img" src="images/yoga-cropped.png" alt="computer-img">
+                            <img class="yoga-img" src="images/yoga-cropped.png" alt="yoga-img">
                         </a>
                         <h3>Yoga Pose Estimation</h3>
                         <p>A yoga trainer built using PoseNet and classification model.</p>
+                    </div>
+                </div>
+                <div class="projects-column">
+                    <div class="content">
+                        <a href="https://github.com/vincentyeungg/simon-game" target="_blank">
+                            <img class="simon-img" src="images/simon-cropped.png" alt="simon-img">
+                        </a>
+                        <h3>Simon Game</h3>
+                        <p>An implementation of the popular Simon game done using HTML, CSS, and JavaScript.</p>
+                    </div>
+                </div>
+                <div class="projects-column">
+                    <div class="content">
+                        <a href="https://github.com/vincentyeungg/simple-bank-application" target="_blank">
+                            <img class="bank-img" src="images/bank-cropped.png" alt="bank-img">
+                        </a>
+                        <h3>Simple Bank Application</h3>
+                        <p>An implementation of a Bank mangement system for COE 528.</p>
                     </div>
                 </div>
             </div>
@@ -155,7 +190,7 @@
         <br>
         <hr>
         <br>
-        <div class="contact-me">
+        <div class="contact-me" id="contactme">
             <h2>Get In Touch</h2>
             <h3>If you would like to discuss about some of my work with me.</h3>
             <a class="btn" href="mailto:vincentyeung0809@gmail.com">CONTACT ME</a>

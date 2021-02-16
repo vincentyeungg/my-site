@@ -10,6 +10,10 @@ body {
 
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 h1 {
     margin: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
@@ -30,6 +34,7 @@ h3 {
 
 a {
     color: #11999E;
+    text-decoration: none;
 }
 
 p {
@@ -43,9 +48,26 @@ hr {
     color: #EAF6F6;
 }
 
+.navbar {
+    padding: 1%;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.navbar li {
+    list-style-type: none;
+    margin: 0 2vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
 .profile {
     margin: auto;
     width: 75%;
+}
+
+.navbar ul {
+    display: flex;
 }
 
 .top-container {
@@ -85,8 +107,12 @@ hr {
     top: 50px;
 }
 
+.profile {
+    padding-top: 6%;
+}
+
 .my-courses {
-    padding-top: 1%;
+    padding-top: 4%;
     padding-bottom: 1%;
     margin: auto;
 }
@@ -97,6 +123,10 @@ hr {
 
 .course-names {
     color: #11999E;
+}
+
+.my-projects {
+    padding-top: 5%;
 }
 
 .projects-column {
@@ -136,6 +166,18 @@ hr {
 }
 
 .yoga-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.simon-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.bank-img {
     width: 25%;
     float: right;
     margin-left: 30px;
